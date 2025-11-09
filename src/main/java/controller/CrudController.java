@@ -15,7 +15,7 @@ public interface CrudController<Entity> {
 
     void setForm(Entity entity); // Hiển thị thực thể lên form
 
-    Entity getFormmmmmmmm(); // Tạo thực thể từ dữ liệu form
+    Entity getForm(); // Tạo thực thể từ dữ liệu form
 
     void fillToTable(); // Tải dữ liệu và đổ lên bảng
 
