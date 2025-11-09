@@ -13,7 +13,7 @@ public interface CrudController<Entity> {
 
     void open(); // Xử lý mở cửa sổ
 
-    void setForm(Entity entity); // Hiển thị thực thể lên form
+    void setFormm(Entity entity); // Hiển thị thực thể lên form
 
     Entity getForm(); // Tạo thực thể từ dữ liệu form
 
